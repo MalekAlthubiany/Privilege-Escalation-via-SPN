@@ -29,7 +29,7 @@ PS C:\Users\dave> move .\adduser.exe C:\xampp\mysql\bin\mysqld.exx
 ```
 
 ## Add user to the system via Leavrging service (Misconifugation) | Service DLL Hijacking. 
-###Breif
+### Breif
 Each Windows service has an associated binary file. These binary files are executed when the service is started or transitioned into a running state.
 
 For this section, let's consider a scenario in which a software developer creates a program and installs an application as a Windows service. During the installation, the developer does not secure the permissions of the program, allowing full Read and Write access to all members of the Users group. As a result, a lower-privileged user could replace the program with a malicious one. 
