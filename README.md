@@ -9,7 +9,7 @@ For this section, let's consider a scenario in which a software developer create
 
 To execute the replaced binary, the user can restart the service or, in case the service is configured to start automatically, reboot the machine. Once the service is restarted, the malicious binary will be executed with the privileges of the service, such as LocalSystem.
 
-We begin by connecting to The Victim as user over RDP. To use powershell commands, Get-Ciminstances, Get-Services.. etc. 
+We begin by connecting to The Victim as user over RDP. To use powershell commands, Get-Ciminstance, Get-Services.. etc. 
 
 To get a list of all installed Windows services, we can choose various methods such as the GUI snap-in services.msc, the Get-Service Cmdlet, or the Get-CimInstance Cmdlet (superseding Get-WmiObject).
 ### Indicator:
