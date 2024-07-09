@@ -2,7 +2,9 @@
 
 
 ## Add user to the system via Leavrginy mysql service. 
-Indicator:
+### Indicator:
+
+
 ![image](https://github.com/MalekAlthubiany/Scripts_Windows/assets/127455300/6ce3ca29-2b07-48a9-a59e-e4df5648a6c5)
 ```
 #include <stdlib.h>
