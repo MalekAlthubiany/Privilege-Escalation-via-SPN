@@ -1,4 +1,4 @@
-# Pervlige Escalation In short
+# Privilege Escalation In short
 
 
 ## Add user to the system via Leavrginy mysql service | Service Binary Hijacking. 
